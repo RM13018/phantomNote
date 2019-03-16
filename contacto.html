@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Phantom Note</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <nav class="blue darken-2">
+        <div class="nav-wrapper">
+            <div class="container">
+                <a href="#!" class="brand-logo">Phantom Note</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="blue darken-4" href="#">Inicia sesion</a></li>
+                    <li><a href="registrar.html">Registrate</a></li>
+                    <li><a href="#">Funciones</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#">Inicia sesion</a></li>
+        <li><a href="registrar.html">Registrate</a></li>
+        <li><a href="#">Funciones</a></li>
+        <li><a href="#">Acerca de</a></li>
+    </ul>
+    <div class="container">
+        <h4 class="blue-text center">Ponte en contacto con nosotros!</h4>
+        <div class="row center-align">
+            <div class="col s12 m8 offset-m2">
+                <div class="input-field col s12 m6">
+                    <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                    <label for="first_name">Nombre</label>
+                </div>
+                <div class="input-field col s12 m6">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">Apellido</label>
+                </div>
+                <div class="input-field col s12">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-field col s12">
+                    <input id="subject" type="text" class="validate">
+                    <label for="subject">Asunto</label>
+                </div>
+                <div class="input-field col s12">
+                    <textarea id="message" class="materialize-textarea"></textarea>
+                    <label for="message">Mensaje</label>
+                </div>
+                <a class="waves-effect waves-light btn">Enviar</a>
+            </div>
+        </div>
+        <h4 class="blue-text center">Tambien nos puedes encontrar en las redes sociales</h4>
+        <div class="row center">
+            <div class="col s4">
+                <img class="icon" src="http://pngimg.com/uploads/facebook_logos/facebook_logos_PNG19751.png" alt="facebook">
+            </div>
+            <div class="col s4">
+                <img class="icon" src="https://i1.wp.com/marsfallpodcast.com/wp-content/uploads/2017/09/Twitter-Download-PNG.png?ssl=1"
+                    alt="twitter">
+            </div>
+            <div class="col s4">
+                <img class="icon" src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c545.png" alt="youtube">
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="page-footer blue">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Phantom Note</h5>
+                    <p class="grey-text text-lighten-4">La forma facil de tener tus notas conectadas en cualquier lugar</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Registrate</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Funciones</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Hacerca de</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2019 Copyright Phantom Note
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
