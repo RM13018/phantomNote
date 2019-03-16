@@ -1,7 +1,53 @@
-.image-banner{
-    margin-bottom: 40px;
+p {
+  font-size: 20px;
+}
+
+.image-banner {
+  margin-bottom: 40px;
+}
+
+.square {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.section {
+  margin: 40px auto;
+}
+
+.section-2 {
+  padding: 40px;
+}
+.section-3{
+  margin-top: 120px;
+}
+.main-feature {
+  font-size: 3em;
+}
+
+.section-img-container {
+  position: relative;
+}
+
+.section-img {
+  position: absolute;
+  left: 30px;
+  top: -100px;
+  bottom: 0px;
+}
+.feature-grid{
+  max-width: 100px;
+  max-height: 100px;
+}
+@media only screen and (max-width: 995px) {
+  .section-img-container {
+    position: relative;
   }
-  .square{
-    max-width: 150px;
-    max.heigth: 150px;
+
+  .section-img {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
   }
+}
