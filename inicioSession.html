@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Iniciar sesión</title>
+</head>
+
+<body>
+    <nav class="blue darken-2">
+        <div class="nav-wrapper">
+            <div class="container">
+                <a href="index.html" class="brand-logo">Phantom Note</a>
+                <a href="index.html" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="blue darken-4" href="inicioSession.html">Inicia sesion</a></li>
+                    <li><a href="registrar.html">Registrate</a></li>
+                    <li><a href="contacto.html">contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="inicioSession.html">Inicia sesion</a></li>
+        <li><a href="registrar.html">Registrate</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+    <div class="container center-align section">
+        <img class="square" src="https://pngimage.net/wp-content/uploads/2018/06/user-icon-in-png-5.png" alt="image-begin" />
+        <h2 class="blue-text">Bienvenido!!</h2>
+        <h5>Inicia sesión</h5>
+        <div class="container">
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s12 m6 offset-m3">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="input-field col s12 m6 offset-m3">
+                            <input id="password" type="password" class="validate">
+                            <label for="password">Password</label>
+                        </div>
+                        <a class="waves-effect waves-light btn col s12 m4 offset-m4">Iniciar</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer blue">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Phantom Note</h5>
+                    <p class="grey-text text-lighten-4">La forma facil de tener tus notas conectadas en cualquier lugar</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="registrar.html">Registrate</a></li>
+                        <li><a class="grey-text text-lighten-3" href="inicioSession.html">Inica secion</a></li>
+                        <li><a class="grey-text text-lighten-3" href="contacto.html">Contacto</a></li>
+                        <li><a class="grey-text text-lighten-3" href="nota.html">Notas</a></li>
+                        <li><a class="grey-text text-lighten-3" href="listaNotas.html">Lista de Notas</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2019 Copyright Phantom Note
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -16,78 +16,97 @@
         <div class="nav-wrapper">
             <div class="container">
                 <a href="index.html" class="brand-logo">Phantom Note</a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <a href="index.html" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a class="blue darken-4" href="IniciarSesion.html">Inicia sesion</a></li>
-                    <li><a href="#">Registrate</a></li>
-                    <li><a href="#">Funciones</a></li>
-                    <li><a href="contacto.html">Acerca de</a></li>
+                    <li><a href="inicioSession.html">Inicia sesion</a></li>
+                    <li><a class="blue darken-4" href="registrar.html">Registrate</a></li>
+                    <li><a href="contacto.html">contacto</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="#">Inicia sesion</a></li>
-        <li><a href="#">Registrate</a></li>
-        <li><a href="#">Funciones</a></li>
-        <li><a href="#">Acerca de</a></li>
+        <li><a href="inicioSession.html">Inicia sesion</a></li>
+        <li><a href="registrar.html">Registrate</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
     </ul>
-    <div class="row">
-        <div class="col s6">
-            <div class="col s12 m12 l6">
-                <div class="container">
+
+    <div class="">
+        <div class="row row-margin-none">
+            <div class="col s12 m12 l6 blue white-text">
+                <div class="container section-4">
                     <h3>Registrate y crea miles de notas</h3>
                     <p>
-                        Almacenamiento en la nube, accede a todas tus notas de forma rápida y gratuita, <span>Registrate ahora</span>
+                        Almacenamiento en la nube, accede a todas tus notas de forma rápida y gratuita, <span>Registrate
+                            ahora</span>
                     </p>
+                    <div class="">
+                        <img class="image-banner responsive-img" src="https://evernote.com/c/assets/homepage/homepage-hero-desktop.png?28e4619a46d0cf89"
+                            alt="banner-1" />
+                    </div>
                 </div>
             </div>
-            <div class="row blue white-text">
-                    <img class="image-banner responsive-img"
-                        src="https://evernote.com/c/assets/homepage/homepage-hero-desktop.png?28e4619a46d0cf89"
-                        alt="banner-1" />
-            </div>
-        </div>
-        <div class="col s6">
-            <div class="container">
-                <div class="row">
-                    <form class="col s12">
-                        <div class="row">
-                            <div class="input-field col s6">
-                                <input id="first_name" type="text" class="validate">
-                                <label for="first_name">First Name</label>
-                            </div>
-                            <div class="input-field col s6">
-                                <input id="last_name" type="text" class="validate">
-                                <label for="last_name">Last Name</label>
-                            </div>
+            <div class="col s12 m12 l6">
+                <h3 class="center-align">Inresa los datos para tu registro</h3>
+                <div class="container">
+                    <div class="row">
+                        <form class="col s12 valign-wrapper">
+
                             <div class="row">
+                                <div class="input-field col s12 m6">
+                                    <input id="first_name" type="text" class="validate">
+                                    <label for="first_name">First Name</label>
+                                </div>
+                                <div class="input-field col s12 m6">
+                                    <input id="last_name" type="text" class="validate">
+                                    <label for="last_name">Last Name</label>
+                                </div>
                                 <div class="input-field col s12">
                                     <input id="password" type="password" class="validate">
                                     <label for="password">Password</label>
                                 </div>
-                            </div>
-                            <div class="row">
                                 <div class="input-field col s12">
                                     <input id="email" type="email" class="validate">
                                     <label for="email">Email</label>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="col s12">
-                                    <div class="input-field inline">
-                                        <input id="email_inline" type="email" class="validate">
-                                        <label for="email_inline">Confirm Email</label>
-                                        <span class="helper-text" data-error="wrong" data-success="right">Helper
-                                            text</span>
-                                    </div>
+                                <div class="input-field inline col s12">
+                                    <input id="email_inline" type="email" class="validate">
+                                    <label for="email_inline">Confirmar Email</label>
                                 </div>
+                                <a class="waves-effect waves-light btn col s12 m4 offset-m4">Iniciar</a>
                             </div>
+
+                    </div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
+    </div>
+    <footer class="page-footer blue">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Phantom Note</h5>
+                    <p class="grey-text text-lighten-4">La forma facil de tener tus notas conectadas en cualquier lugar</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="registrar.html">Registrate</a></li>
+                        <li><a class="grey-text text-lighten-3" href="inicioSession.html">Inica secion</a></li>
+                        <li><a class="grey-text text-lighten-3" href="contacto.html">Contacto</a></li>
+                        <li><a class="grey-text text-lighten-3" href="nota.html">Notas</a></li>
+                        <li><a class="grey-text text-lighten-3" href="listaNotas.html">Lista de Notas</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2019 Copyright Phantom Note
+            </div>
+        </div>
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="js/main.js"></script>
 </body>

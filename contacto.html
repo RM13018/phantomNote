@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -18,27 +20,26 @@
                 <a href="index.html" class="brand-logo">Phantom Note</a>
                 <a href="index.html" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a class="blue darken-4" href="IniciarSesion.html">Inicia sesion</a></li>
+                    <li><a href="inicioSession.html">Inicia sesion</a></li>
                     <li><a href="registrar.html">Registrate</a></li>
-                    <li><a href="#">Funciones</a></li>
-                    <li><a href="#">Acerca de</a></li>
+                    <li><a class="blue darken-4" href="contacto.html">contacto</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="#">Inicia sesion</a></li>
+        <li><a href="inicioSession.html">Inicia sesion</a></li>
         <li><a href="registrar.html">Registrate</a></li>
-        <li><a href="#">Funciones</a></li>
-        <li><a href="#">Acerca de</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
     </ul>
+
     <div class="container">
         <h4 class="blue-text center">Ponte en contacto con nosotros!</h4>
-        <div class="row center-align">
+        <div class="row center-align section-5">
             <div class="col s12 m8 offset-m2">
                 <div class="input-field col s12 m6">
-                    <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                    <input id="first_name" type="text" class="validate">
                     <label for="first_name">Nombre</label>
                 </div>
                 <div class="input-field col s12 m6">
@@ -60,17 +61,18 @@
                 <a class="waves-effect waves-light btn">Enviar</a>
             </div>
         </div>
-        <h4 class="blue-text center">Tambien nos puedes encontrar en las redes sociales</h4>
-        <div class="row center">
-            <div class="col s4">
-                <img class="icon" src="http://pngimg.com/uploads/facebook_logos/facebook_logos_PNG19751.png" alt="facebook">
-            </div>
-            <div class="col s4">
-                <img class="icon" src="https://i1.wp.com/marsfallpodcast.com/wp-content/uploads/2017/09/Twitter-Download-PNG.png?ssl=1"
-                    alt="twitter">
-            </div>
-            <div class="col s4">
-                <img class="icon" src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c545.png" alt="youtube">
+        <div class="section-5">
+            <h4 class="blue-text center">Tambien nos puedes encontrar en las redes sociales</h4>
+            <div class="row center section-5">
+                <div class="col s4">
+                    <i class="fab blue-text text-darken-4 fa-facebook-square social-icon"></i>
+                </div>
+                <div class="col s4">
+                    <i class="fab blue-text text-darken-4 fa-twitter-square social-icon"></i>
+                </div>
+                <div class="col s4">
+                    <i class="fab blue-text text-darken-4 fa-youtube-square social-icon"></i>
+                </div>
             </div>
         </div>
     </div>
@@ -90,6 +92,8 @@
                         <li><a class="grey-text text-lighten-3" href="#!">Funciones</a></li>
                         <li><a class="grey-text text-lighten-3" href="#!">Hacerca de</a></li>
                         <li><a class="grey-text text-lighten-3" href="#!">Contacto</a></li>
+                        <li><a class="grey-text text-lighten-3" href="nota.html">Notas</a></li>
+						<li><a class="grey-text text-lighten-3" href="listaNotas.html">Lista de Notas</a></li>
                     </ul>
                 </div>
             </div>

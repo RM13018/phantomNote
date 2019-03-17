@@ -14,12 +14,20 @@ p {
 .section {
   margin: 40px auto;
 }
-
 .section-2 {
   padding: 40px;
 }
 .section-3{
   margin-top: 120px;
+}
+.section-4{
+  margin: 60px auto;
+}
+.section-5{
+  margin-top: 40px;
+}
+.row-margin-none{
+  margin-bottom: 0;
 }
 .main-feature {
   font-size: 3em;
@@ -28,7 +36,9 @@ p {
 .section-img-container {
   position: relative;
 }
-
+.social-icon{
+  font-size: 5em;
+}
 .section-img {
   position: absolute;
   left: 30px;
